@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{background-color: rgb(93, 152, 127);}
+h1{text-align: center;font-size:70px;font-family: 'Satisfy';color:rgb(200, 243, 206);margin-bottom: 70px;}
+h2{font-size:25px;font-family: 'Satisfy';color:rgb(36, 56, 69);margin-left:30%;}
+.buttons{display: flex;justify-content: center;}
+button{background-color:rgb(246, 103, 87);border:none;width:150px;height: 40px;color:rgb(36, 56, 69);margin:10px;}
