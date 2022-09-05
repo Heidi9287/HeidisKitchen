@@ -12,19 +12,22 @@
 <body>
     <h1>Heidi's Kitchen</h1>
     <div>
-        <h2 id="dishNumber">Number of Dirty Dishes: 0</h2>
-        <h2 id="dishSoap">Number of Dish Soup: 5</h2>
-        <img src="sinkFull.jpg" />
+        <div id="textFlex">
+            <h2 id="dishNumber">Dirty Dishes: 0</h2>
+            <h2 id="dishSoap">Dish Soup: 5</h2>
+        </div>
+        <div>
+            <img src="sinkClean.jpg" id='image' />
+        </div>
         <br>
         <div class="buttons">
             <div class="minus">
-                <button class="doDishes">Do Dishes</button>
-                <button class="yell">Yell at Husband</button>
+                <button id="doDishes">Do Dishes</button>
+                <button id="yell">Yell at Husband</button>
             </div>
-            <button class="add">Stay Lazy</button>
+            <button id="lazy">Stay Lazy</button>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 
